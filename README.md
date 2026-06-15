@@ -27,7 +27,7 @@ This repository is the reproducibility companion to the BLS data-analysis white 
     └── BLS_trend.tex
 ```
 
-**Note on paths.** Both scripts resolve input and output paths relative to the script's own location (`BASE = os.path.dirname(os.path.abspath(__file__))`). As written, each script expects the `occupation*.xlsx` workbooks beside it and writes its outputs to the same folder. To use the `data/` and `outputs/` layout shown above, either keep the workbooks next to the scripts, or point `XLSX` / `OUT_*` at `../data` and `../outputs` (one line each).
+**Note on paths.** Both scripts resolve paths relative to the repository root (the parent of `scripts/`): they read input workbooks from `data/` and write generated files to `outputs/`, creating `outputs/` automatically if it does not exist. You can run them from any working directory — e.g. `python scripts/bls.py` — and the locations resolve correctly.
 
 ## Data source
 
@@ -73,6 +73,6 @@ The extraction scripts, the derived tables and figures, and any prose original t
 
 ## Citation
 
-> VerSteeg, J. (2026). *Analysis of U.S. Bureau of Labor Statistics engineering employment data for The Crucible of Belonging: Source data, extraction scripts, and generated tables and figures* (White paper, Version 0.9). South Dakota State University.
+> VerSteeg, J. (2026). *Analysis of U.S. Bureau of Labor Statistics engineering employment data for The Crucible of Belonging: Source data, extraction scripts, and generated tables and figures* (White paper). South Dakota State University, Open PRAIRIE. https://doi.org/[DOI assigned at deposit]
 
 **Author:** John VerSteeg — ORCID [0009-0000-1704-7890](https://orcid.org/0009-0000-1704-7890) — Department of Mechanical Engineering, South Dakota State University.
