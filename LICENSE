@@ -1,0 +1,41 @@
+The Crucible of Belonging — U.S. BLS Engineering Employment Data
+Copyright (c) 2026 John VerSteeg
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+  Full legal code:        https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, even
+commercially, provided you give appropriate credit, link to the license, and
+indicate if changes were made. The full terms govern; the summary above is not
+a substitute for them.
+
+SCOPE
+-----
+The CC BY 4.0 grant applies to the original material in this repository:
+the extraction scripts (scripts/bls.py, scripts/bls_historical.py), the derived
+tables and figures (outputs/), and any prose original to this repository
+(e.g., README.md).
+
+The underlying employment figures are published by the U.S. Bureau of Labor
+Statistics (Occupational Projections and Worker Characteristics, Table 1.2)
+and are in the public domain as a U.S. Government work. The CC BY grant does
+not assert any new rights over that public-domain source data; it extends only
+to the derived and original material listed above.
+
+ATTRIBUTION
+-----------
+Suggested attribution:
+
+  VerSteeg, J. (2026). Analysis of U.S. Bureau of Labor Statistics engineering
+  employment data for The Crucible of Belonging: Source data, extraction
+  scripts, and generated tables and figures (White paper, Version 0.9).
+  South Dakota State University.
+
+NOTE
+----
+For GitHub to display the "CC-BY-4.0" badge and to embed the canonical license
+text in this file, append the full legal code from the official URL above
+beneath this notice (the SCOPE and ATTRIBUTION sections can remain at the top).

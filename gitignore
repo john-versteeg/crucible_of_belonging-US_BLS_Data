@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# ── OS / editor ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ── LaTeX build intermediates (only if you compile locally) ──
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# ── Intentionally tracked — do NOT ignore ───────────────
+# data/occupation*.xlsx     -> source workbooks (public-domain BLS data)
+# outputs/*.csv, *.tex      -> generated tables/figures (traceability)
+# Nothing above should match these; they are committed on purpose.
